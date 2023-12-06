@@ -1,0 +1,26 @@
+
+@import '../utils/variables';
+
+
+#navbar.navbar-shrink {
+    height: 70px;
+    box-shadow: 0 0 10px 10px $primary-color;
+}
+
+.dark #navbar.navbar-shrink {
+    height: 70px;
+    box-shadow: 0 0 10px 10px $white-color;
+}
+
+.mode-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.dark #navigator {
+    background-color: $dark-color;
+    color: $white-color;
+}
+
+
+

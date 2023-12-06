@@ -1,0 +1,251 @@
+@import "../main.scss";
+#navigator {
+    background-color: $primary-color;
+}
+
+.title {
+    padding-top: 100px;
+    color: #242424;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: Cera Round Pro;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 1.92px;
+    text-transform: capitalize;
+}
+
+.dark .title , .dark .about-list , .dark .about-text {
+    color: $white-color;
+}
+
+.text-centrs {
+    text-align: center;
+}
+
+.text-centrs img {
+    width: 100%;
+}
+
+
+.footer-top {
+    max-width: 1406px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.40);
+    background: $primary-color;
+    box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.20);
+    text-align: center;
+    margin-bottom: -200px;
+}
+
+
+
+
+.footer-top-title {
+    margin: 64px 0 10px 0;
+    color: var(--FFFFFF, #FFF);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.92px;
+    text-transform: capitalize;
+}
+
+.footer-top-text {
+    color: #FFF;
+    text-align: center;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 1.44px;
+    text-transform: capitalize;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (min-width: 900px) {
+        flex-direction: row;
+    }
+}
+
+.footer-top-list {
+    margin: 10px 0 50px 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+input {
+    display: none;
+    max-width: 810px;
+    color: var(--AAAAAA, #AAA);
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    text-transform: capitalize;
+    padding: 12px 400px 12px 20px;
+    border-radius: 100px;
+    border: 1px solid rgba(245, 239, 219, 0.50);
+    background-color: transparent;
+
+    @media (min-width: 900px) {
+        display: block;
+    }
+
+}
+
+.subsicribe {
+    padding: 12px 30px;
+    color: #FFF;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    margin: 0 0 0 30px;
+}
+
+form {
+    padding-bottom: 50px;
+}
+
+.footer {
+    background-color: $primary-color;
+}
+
+.footers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 300px;
+
+    @media (min-width: 900px) {
+        flex-direction: row;
+    }
+}
+
+.footer-title {
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 1.28px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    color: #FFF;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+}
+
+.logo-img {
+    text-align: center;
+}
+
+.list-text {
+    max-width: 438px;
+    margin-top: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+}
+
+.logo-img {
+    text-align: center;
+}
+
+.list-text {
+    max-width: 438px;
+    margin-top: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Cera Round Pro DEMO', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+}    
+
+.footer-end {
+    text-align: center;
+}
+
+.dark #footer-top {
+    background-color: $dark-color;
+}
+
+.footer-end p {
+    padding: 60px 0 40px 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.dark #about {
+    background-color: $dark-color;
+}
+
+.footer-end {
+    text-align: center;
+}
+
+.footer-end p {
+    padding: 60px 0 40px 0;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+    letter-spacing: 0.64px;
+}
+
+.dark .footer-top {
+    background-color: $dark-color;
+    color: $white-color;
+}
+
+.dark .footer {
+    background-color: $dark-color;
+}
+
+.dark #footer-top {
+    background-color: $dark-color;
+}
+
+.about-text {
+    padding-bottom: 100px;
+}
